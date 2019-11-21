@@ -1,0 +1,175 @@
+/* Optional: Makes the sample page fill the window. */
+    html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    .container {
+      position: relative;
+    }
+
+/* HEADER SECTION START */
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    /* Top left text */
+    .top-left {
+      position: absolute;
+      top: 60px;
+      left: 26px;
+    }
+    /* Top right text */
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 30px;
+    }
+    /* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+    #map {
+      height: 530px;
+      width: 100%;
+    }
+    .btn-color{
+      background-color:#C7D530;
+      color:white;
+    }
+    #top-left-logo{
+      height: 40%;
+      width:30%
+    }
+    #centered-image{
+
+    }
+    #centered-left-image{
+      height:75%;
+      width:75%;
+    }
+    
+/* HEADER SECTION END */
+
+/* BODY SECTION START */
+    @font-face {
+      font-family: BureauEagleFBBook;
+      src: url("http://boekjeplekje.nl/assets/fonts/BureauEagleFBBook/BureauEagleFBBook.otf");
+    }
+    @font-face {
+      font-family: OpenSans-Semibold;
+      src: url("http://boekjeplekje.nl/assets/fonts/OpenSans/OpenSans-Semibold.ttf");
+    }
+    .OpenSans-Semibold{
+      font-family: OpenSans-Semibold;
+    }
+    .BureauEagleFBBook{
+      font-family: BureauEagleFBBook;
+    }
+    #icon-images{
+      height: 80%;
+      width: 50%;
+    }
+    .heading-img-sec{
+      font-size:19px;
+      color:#C7D530;
+    }
+    .gal-item{
+  	overflow: hidden;
+  	padding: 8px;
+    }
+    .gal-item .box{
+    	overflow: hidden;
+    }
+    .box img{
+      margin-top: 0px;
+    	width: auto;
+    	object-fit:cover;
+    }
+    #company-label-section{
+      padding-top:20px;
+      padding-bottom:20px;
+    }
+    #contact-form-section{
+      width: 50%;
+    }
+    #verstuur-btn{
+      background-color:#C7D530;
+      color:white;
+    }
+/* BODY SECTION END */
+
+
+/* FOOTER SECTION START */
+#footer-logo{
+  height: 100px;
+  margin-top:40px;
+}
+#footer-text{
+  font-size:18px;
+  padding-top:5%;
+  width:50%;
+  margin-left:20%;
+}
+#footer-btn{
+  border-radius:50%;
+  margin-left:10px;
+  background-color:#C7D530 ;
+  color:white;
+}
+/* FOOTER SECTION END */
+
+/* POPUP SECTION START */
+#popup-title{
+  width: 80%;
+}
+.popup-guest-btn{
+  background-color:#C7D530;
+  color:white;
+}
+#popup-logo{
+  width:90%;
+}
+/* POPUP SECTION END */
+
+/* MEDIA QURIES SECTION START */
+@media screen and (max-width: 770px) {
+  #centered-left-image{
+    visibility: hidden;
+    display: none;
+  }
+  .centered-left-image{
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media screen and (device-width: 768px)  and (device-height: 1024px) {
+    .centered{
+      margin-top: -60px;
+    }
+  }
+
+@media screen and (device-width: 1024px)  and (device-height: 1366px) {
+    .centered{
+      margin-top: -290px;
+    }
+  }
+@media screen and (device-width: 2880px)  and (device-height: 1800px) {
+    .centered{
+      margin-top: -590px;
+    }
+  }
+@media screen and (device-width: 1920px)  and (device-height: 1080px) {
+    .centered{
+      margin-top: -175px;
+    }
+  }
+@media screen and (device-width: 2560px)  and (device-height: 1440px) {
+    .centered{
+      margin-top: -375px;
+    }
+  }
+
+
+/* MEDIA QURIES SECTION END */
